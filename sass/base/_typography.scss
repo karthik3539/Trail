@@ -1,0 +1,87 @@
+.heading-primary{
+    color:black;
+    margin-bottom: 0.5rem;
+    font-family:  sans-serif;
+    
+}
+
+.review-count{
+    
+    padding-left: .5rem;
+    font-family:  sans-serif;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    line-height: 2.2rem;
+    
+    
+}
+.rating{
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+
+.description-bar{
+
+        padding: 2rem 0 1rem;
+
+                & span{
+                    margin-right: 1.5rem;
+                    font-family:  sans-serif;
+                    font-weight: 300;
+                    color: lightgray;
+
+
+                    &:hover{
+                        color: black;
+                        padding-bottom: 1.0rem;
+                        font-weight: bold;
+                        border-bottom: .2rem solid black;
+                        transition: all .2s;
+                    }
+                }
+
+
+             
+
+
+    }
+
+
+.product-price{
+
+                    & span:first-child{
+                        color: rgb(24, 179, 57);
+                        font-size: 1.5rem;
+                        margin-right: 0.5rem;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        
+                    }
+                    & span:last-child{
+                        color: red;
+                        font-size: 1.1rem;
+                        font-family:  sans-serif;
+                        font-weight: bold;
+                        
+                    }
+
+
+                               
+            border-bottom: .1rem solid lightgrey ;
+            padding-bottom:     1rem;
+            margin: 1rem;
+
+
+           
+}
+
+
+.product-detail{
+    font-size: .7rem;
+    font-family:  sans-serif;
+    font-weight: bold;
+    padding:0 1.5rem 1.5rem;
+}
